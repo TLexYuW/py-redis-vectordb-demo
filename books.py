@@ -73,8 +73,8 @@ if __name__ == "__main__":
         r.ft('books_idx').create_index(schema, definition=index_def)
     """
     
-    # print(get_recommendation('book:26415'))
-    # print(get_recommendation('book:9'))
+    print(get_recommendation('book:26415'))
+    print(get_recommendation('book:9'))
 
-    print(get_recommendation_by_range('book:26415'))
-    print(get_recommendation_by_range('book:9'))
+    # print(get_recommendation_by_range('book:26415'))
+    # print(get_recommendation_by_range('book:9'))
